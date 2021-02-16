@@ -1,0 +1,12 @@
+@import "../../base/variables";
+
+nav {
+	background-color: $color-navbar;
+}
+
+a > span {
+	color: rgba($color: #645c5c, $alpha: 1);
+}
+a > span:hover {
+	color: $color-background;
+}

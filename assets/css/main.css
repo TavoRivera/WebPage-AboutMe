@@ -1,0 +1,47 @@
+.main-header {
+  background: url(https://i.ibb.co/n1Tnv8d/77409668-10156521409567127-3236060181666201600-o.jpg);
+  background-size: cover;
+  display: flex;
+  min-height: 540px;
+  position: relative;
+}
+.main-header .background-overlay {
+  background-color: rgba(209, 34, 28, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+nav {
+  background-color: rgba(240, 204, 204, 0.795);
+}
+
+a > span {
+  color: #645c5c;
+}
+
+a > span:hover {
+  color: rgba(209, 34, 28, 0.5);
+}
+
+footer {
+  background-color: rgba(240, 204, 204, 0.795);
+}
+
+header {
+  color: white;
+}
+
+h1 {
+  color: inherit;
+  font-size: 25px;
+}
+
+p {
+  color: inherit;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */

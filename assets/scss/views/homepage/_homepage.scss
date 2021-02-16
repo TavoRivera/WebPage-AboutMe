@@ -1,0 +1,18 @@
+@import "../../base/variables";
+
+.main-header {
+	background: url(https://i.ibb.co/n1Tnv8d/77409668-10156521409567127-3236060181666201600-o.jpg);
+	background-size: cover;
+	display: flex;
+	min-height: 540px;
+	position: relative;
+
+	.background-overlay {
+		background-color: $color-background;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+}
