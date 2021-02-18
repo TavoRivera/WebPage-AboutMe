@@ -5,7 +5,7 @@ nav {
 }
 
 a > span {
-	color: rgba($color: #645c5c, $alpha: 1);
+	color: $color-menu;
 }
 a > span:hover {
 	color: $color-background;

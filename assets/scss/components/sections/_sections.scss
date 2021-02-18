@@ -1,0 +1,40 @@
+@media screen and (max-width: 490px) {
+	section {
+		h5 {
+			font-size: 12px;
+		}
+		th,
+		td,
+		p,
+		.lista li,
+		td > p {
+			text-indent: 0px;
+			font-size: 8px;
+		}
+	}
+}
+@media screen and (max-width: 359px) {
+	section img {
+		display: none;
+	}
+}
+@media screen and (min-width: 360px) and (max-width: 700px) {
+	section img {
+		height: 20px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	section td {
+		text-indent: 100px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	section td {
+		text-indent: 300px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	section td {
+		text-indent: 500px;
+	}
+}
