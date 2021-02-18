@@ -82,6 +82,10 @@ h5 > a:hover {
   border-radius: 10px;
 }
 
+section h5 {
+  color: #831511;
+}
+
 @media screen and (max-width: 490px) {
   section h5 {
     font-size: 12px;
@@ -119,6 +123,9 @@ section td > p {
   section td {
     text-indent: 500px;
   }
+}
+p > span {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,9 @@
+@import "../../base/variables";
+
+section h5 {
+	color: $color-harvard;
+}
+
 @media screen and (max-width: 490px) {
 	section {
 		h5 {
@@ -37,4 +43,8 @@
 	section td {
 		text-indent: 500px;
 	}
+}
+
+p > span {
+	font-style: italic;
 }
