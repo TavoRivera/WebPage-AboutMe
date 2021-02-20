@@ -3,6 +3,22 @@
 section h5 {
 	color: $color-harvard;
 }
+//ocupo un simple mixin
+@mixin selector {
+	background: $color-navbar;
+	color: $color-harvard;
+}
+//ocupo selector de pseudoelemento :: y selector de ,
+section {
+	p::selection,
+	li::selection,
+	th::selection,
+	td::selection,
+	span::selection,
+	a::selection {
+		@include selector;
+	}
+}
 
 @media screen and (max-width: 490px) {
 	section {
@@ -19,6 +35,7 @@ section h5 {
 		}
 	}
 }
+//para ser lo más responsive posible hice muchas media querys, quizás podría hacer menos
 @media screen and (max-width: 359px) {
 	section img {
 		display: none;

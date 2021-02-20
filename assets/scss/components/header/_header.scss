@@ -1,4 +1,5 @@
 @import "../../base/variables";
+//ocupo media querys
 header {
 	color: white;
 	@media screen and (max-width: 992px) {
@@ -12,11 +13,13 @@ h1 {
 	font-size: 25px;
 	margin-top: 0px;
 }
+//ocupo selector de espacio
 header p {
 	color: inherit;
 	font-style: italic;
 	animation-duration: 2s;
 	animation-name: slidein;
+	transition: 3s;
 }
 // tomado de https://developer.mozilla.org/es/docs/Web/CSS/CSS_Animations/Usando_animaciones_CSS
 @keyframes slidein {

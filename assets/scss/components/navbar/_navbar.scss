@@ -3,10 +3,11 @@
 nav {
 	background-color: $color-navbar;
 }
-
+//ocupo selector tipo >
 a > span {
 	color: $color-menu;
 }
+//ocupo selector de pseudoclase :hover
 a > span:hover {
 	color: $color-background;
 }
