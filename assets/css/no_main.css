@@ -1,5 +1,22 @@
 /*Importando funciones de main.css como lo es el navbar y el footer. Este documento será para las otras tres hojas de html: logros, amigos, mascotas*/
 
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+section .galeria {
+	animation-duration: 1.5s;
+	animation-name: slidein;
+	transition: 2.5s;
+}
+
 nav {
 	background-color: rgba(240, 204, 204, 0.795);
 }
@@ -12,11 +29,27 @@ a > span:hover {
 	color: rgba(209, 34, 28, 0.397);
 }
 
+article p {
+	font-size: 20px;
+	font-style: italic;
+}
+article p::selection {
+	background: rgba(240, 204, 204, 0.795);
+	color: #831511;
+}
+
 @media screen and (max-width: 490px) {
 	h6 {
 		font-size: 8px;
 	}
+	article p {
+		font-size: 16px;
+	}
+	section .galeria {
+		animation: none;
+	}
 }
+
 footer {
 	background-color: rgba(240, 204, 204, 0.795);
 }
@@ -64,7 +97,7 @@ body {
 
 /*gallery styles*/
 .galeria {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	list-style: none;
 	padding: 20px;
@@ -85,6 +118,11 @@ body {
 /*modal styles*/
 
 .modo {
+	display: none;
+}
+
+.modo:target {
+	display: block;
 	position: fixed;
 	background: rgba(0, 0, 0, 0.8);
 	top: 0;
