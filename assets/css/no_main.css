@@ -100,18 +100,18 @@ body {
 	width: 100%;
 	margin: auto;
 	list-style: none;
-	padding: 20px;
+	padding: 25px;
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
 .galeria li {
-	margin: 5px;
+	margin: 20px;
 }
 
 .galeria img {
-	width: 130px;
+	width: auto;
 	height: 90px;
 }
 
@@ -159,10 +159,18 @@ body {
 }
 
 .imag img {
-	height: auto;
-	width: 50%;
-	border: 10px solid #f0cccccb;
+	max-height: auto;
+	max-width: 66%;
+	border: 2px solid #f0cccccb;
 	box-sizing: border-box;
+}
+@media screen and (min-width: 469px) {
+	.imag img {
+		max-width: auto;
+		max-height: 150%;
+		border: 3px solid #f0cccccb;
+		box-sizing: border-box;
+	}
 }
 
 .cierre {

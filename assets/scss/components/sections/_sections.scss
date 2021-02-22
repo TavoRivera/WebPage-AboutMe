@@ -20,7 +20,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 496px) {
 	section {
 		h5 {
 			font-size: 12px;
@@ -43,22 +43,25 @@ section {
 }
 @media screen and (min-width: 360px) and (max-width: 700px) {
 	section img {
-		height: 20px;
+		height: 16px;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	section td {
 		text-indent: 100px;
 	}
+	section img {
+		height: 20px;
+	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 	section td {
-		text-indent: 300px;
+		text-indent: 250px;
 	}
 }
 @media screen and (min-width: 1200px) {
 	section td {
-		text-indent: 500px;
+		text-indent: 400px;
 	}
 }
 

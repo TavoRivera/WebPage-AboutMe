@@ -15,7 +15,7 @@
 }
 
 nav {
-  background-color: rgba(240, 204, 204, 0.795);
+  background-color: rgba(240, 204, 204, 0.796);
 }
 
 a > span {
@@ -32,7 +32,7 @@ a > span:hover {
   }
 }
 footer {
-  background-color: rgba(240, 204, 204, 0.795);
+  background-color: rgba(240, 204, 204, 0.796);
 }
 
 .redes-container {
@@ -112,7 +112,7 @@ h5 > a:hover {
   border-radius: 10px;
   animation-duration: 3s;
   animation-name: slidein;
-  background-color: rgba(240, 204, 204, 0.795);
+  background-color: rgba(240, 204, 204, 0.796);
 }
 
 .card-body:hover {
@@ -130,11 +130,11 @@ section th::selection,
 section td::selection,
 section span::selection,
 section a::selection {
-  background: rgba(240, 204, 204, 0.795);
+  background: rgba(240, 204, 204, 0.796);
   color: #831511;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 496px) {
   section h5 {
     font-size: 12px;
   }
@@ -154,22 +154,26 @@ section td > p {
 }
 @media screen and (min-width: 360px) and (max-width: 700px) {
   section img {
-    height: 20px;
+    height: 16px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   section td {
     text-indent: 100px;
   }
+
+  section img {
+    height: 20px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   section td {
-    text-indent: 300px;
+    text-indent: 250px;
   }
 }
 @media screen and (min-width: 1200px) {
   section td {
-    text-indent: 500px;
+    text-indent: 400px;
   }
 }
 p > span {
