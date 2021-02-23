@@ -120,6 +120,11 @@ h5 > a:hover {
   border-radius: 10px;
 }
 
+#information,
+#hobbies {
+  background-color: rgba(255, 238, 238, 0.973);
+}
+
 section h5 {
   color: #831511;
 }
@@ -130,7 +135,7 @@ section th::selection,
 section td::selection,
 section span::selection,
 section a::selection {
-  background: rgba(240, 204, 204, 0.796);
+  background-color: rgba(240, 204, 204, 0.796);
   color: #831511;
 }
 

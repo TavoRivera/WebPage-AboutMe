@@ -1,14 +1,19 @@
 @import "../../base/variables";
 
+#information,
+#hobbies {
+	background-color: $bg-id;
+}
+
 section h5 {
 	color: $color-harvard;
 }
-//ocupo un simple mixin
-@mixin selector {
-	background: $color-navbar;
+//usando la herencia scss
+%selector {
+	background-color: $color-navbar;
 	color: $color-harvard;
 }
-//ocupo selector de pseudoelemento :: y selector de ,
+//ocupo selector de pseudoelemento :: y selector de coma
 section {
 	p::selection,
 	li::selection,
@@ -16,7 +21,7 @@ section {
 	td::selection,
 	span::selection,
 	a::selection {
-		@include selector;
+		@extend %selector;
 	}
 }
 
