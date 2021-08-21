@@ -2,7 +2,7 @@
   background: url(https://i.ibb.co/n1Tnv8d/77409668-10156521409567127-3236060181666201600-o.jpg);
   background-size: cover;
   display: flex;
-  min-height: 540px;
+  min-height: 580px;
   position: relative;
 }
 .main-header .background-overlay {
@@ -19,7 +19,7 @@ nav {
 }
 
 a > span {
-  color: #645c5c;
+  color: #831511;
 }
 
 a > span:hover {
@@ -101,7 +101,7 @@ header p {
   }
 }
 h5 > a {
-  color: #645c5c;
+  color: #c01616;
 }
 
 h5 > a:hover {
